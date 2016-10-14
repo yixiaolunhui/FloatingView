@@ -1,7 +1,10 @@
 # FloatingView
 悬浮view，之前写的https://github.com/dalong982242260/SuspendedBall  有点问题，现在换成方式实现。
 
-
+##使用范围
+1、可以随便添加view或者layout，不受限制。
+2、支持点击事件。
+3、适合app中首页活动等使用。
 
 ##效果图
 
