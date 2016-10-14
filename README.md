@@ -1,5 +1,6 @@
 # FloatingView
-悬浮view
+悬浮view，之前写的https://github.com/dalong982242260/SuspendedBall  有点问题，现在换成方式实现。
+
 
 
 ##效果图
@@ -15,6 +16,6 @@
 ##说明
 |name|format|description|
 |:---:|:---:|:---:|
-| dl_duration | float |设置归位时间
+| dl_duration | long |设置归位时间
 | dl_percent | float |设置显示百分比
 | dl_scale | float |设置按下view缩放值
