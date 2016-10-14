@@ -23,26 +23,26 @@
 
 ##使用方式
 
-xml：
-      <com.dalong.floatview.FloatingView
-            android:id="@+id/floatingView"
-            app:dl_duration="100"
-            app:dl_scale="1.4"
-            app:dl_percent="0.8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+###xml：
+              <com.dalong.floatview.FloatingView
+                    android:id="@+id/floatingView"
+                    app:dl_duration="100"
+                    app:dl_scale="1.4"
+                    app:dl_percent="0.8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
             
-java：
-            floatingView=(FloatingView)findViewById(R.id.floatingView);
-            View view= LayoutInflater.from(this).inflate(R.layout.item_view,null);
-            ImageView image= (ImageView) view.findViewById(R.id.test_img);
-    
-            floatingView.addFloatingView(view)
-                    .setFloatingDuration(200L)
-                    .setFloatingPercent(0.5f)
-                    .setFloatingScale(1f);
-    
-            Glide.with(this)
-                    .load("http://img2.imgtn.bdimg.com/it/u=2679297709,1421413045&fm=21&gp=0.jpg")
-                    .placeholder(R.mipmap.ic_launcher)
-                    .into(image);
+###java：
+                    floatingView=(FloatingView)findViewById(R.id.floatingView);
+                    View view= LayoutInflater.from(this).inflate(R.layout.item_view,null);
+                    ImageView image= (ImageView) view.findViewById(R.id.test_img);
+            
+                    floatingView.addFloatingView(view)
+                            .setFloatingDuration(200L)
+                            .setFloatingPercent(0.5f)
+                            .setFloatingScale(1f);
+            
+                    Glide.with(this)
+                            .load("http://img2.imgtn.bdimg.com/it/u=2679297709,1421413045&fm=21&gp=0.jpg")
+                            .placeholder(R.mipmap.ic_launcher)
+                            .into(image);
