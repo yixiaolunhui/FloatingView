@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FloatingView">
+        <attr name="dl_duration" format="integer"/>
+        <attr name="dl_percent" format="float"/>
+        <attr name="dl_scale" format="float"/>
+    </declare-styleable>
+</resources>
