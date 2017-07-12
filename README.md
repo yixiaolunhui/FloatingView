@@ -17,28 +17,28 @@
 
 
 ##说明
-|name|format|description|
-|:---:|:---:|:---:|
-| dl_duration | long |设置归位时间
-| dl_percent | float |设置显示百分比
-| dl_scale | float |设置按下view缩放值
+                |name|format|description|
+                |:---:|:---:|:---:|
+                | dl_duration | long |设置归位时间
+                | dl_percent | float |设置显示百分比
+                | dl_scale | float |设置按下view缩放值
 
 
 ##使用方式
 
 ###xml：
-              <com.dalong.floatview.FloatingView
-                    android:id="@+id/floatingView"
-                    app:dl_duration="100"
-                    app:dl_scale="1.4"
-                    app:dl_percent="0.8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                  <com.dalong.floatview.FloatingView
+                        android:id="@+id/floatingView"
+                        app:dl_duration="100"
+                        app:dl_scale="1.4"
+                        app:dl_percent="0.8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
             
 ###java：
-                    floatingView=(FloatingView)findViewById(R.id.floatingView);
-                    View view= LayoutInflater.from(this).inflate(R.layout.item_view,null);
-                    ImageView image= (ImageView) view.findViewById(R.id.test_img);
+                        floatingView=(FloatingView)findViewById(R.id.floatingView);
+                        View view= LayoutInflater.from(this).inflate(R.layout.item_view,null);
+                        ImageView image= (ImageView) view.findViewById(R.id.test_img);
             
                     floatingView.addFloatingView(view)
                             .setFloatingDuration(200L)
