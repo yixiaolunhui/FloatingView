@@ -1,5 +1,5 @@
 # FloatingView
-悬浮view，之前写的https://github.com/dalong982242260/SuspendedBall  有点问题，现在换成方式实现。
+悬浮view，之前写的https://github.com/dalong982242260/SuspendedBall 现在换成方式实现。
 
 ##使用范围
 1、可以随便添加view或者layout，不受限制。
